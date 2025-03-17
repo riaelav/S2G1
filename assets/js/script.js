@@ -76,9 +76,12 @@ console.log(subtraction);
 */
 let name1 = "john";
 let name2 = "John";
-console.log(name1 === name2); // false
+let areNamesDifferent = name1 === name2;
+console.log(areNamesDifferent); // false
 const check = name1 === name2 ? "yes" : "no";
 console.log(check); // no
 console.log(name2.toLowerCase()); // john
+let areNamesEqual = name1.toLowerCase() === name2.toLowerCase();
+console.log(areNamesEqual); // true
 const check2 = name1.toLowerCase() === name2.toLowerCase() ? "yes" : "no";
 console.log(check2); // yes
